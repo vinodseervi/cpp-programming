@@ -2,24 +2,12 @@
 using namespace std;
 
 
-int main(){
-    
-    /*  Read input as specified in the question.
-     * Print output as specified in the question.
-     */
-     int n;
-    cin>>n;
-    int i=1;
-    while(i<=n){
-        int j=1;
-        char ch='A'+i-1
-        while(j<=n){
-            cout<<ch;
-            j++;
-        }
-        i++;
-        cout<<endl;
-    }
-    
-}
 
+int main() 
+{
+     int a,b,c,d;
+     cin>>a>>b>>c;
+     d=2*((b*c)+(c*a)+(a*b));
+     cout<<d;
+	
+}

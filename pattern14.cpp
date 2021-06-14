@@ -9,6 +9,8 @@ Enter n : 5
 *****
 */
 
+
+
 int main()
 {
 	int n;
@@ -28,5 +30,6 @@ int main()
 		}
 		i++;
 		cout<<endl;
+//hello vinod
 	}
 }
